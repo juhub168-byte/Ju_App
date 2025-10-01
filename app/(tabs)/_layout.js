@@ -125,7 +125,14 @@ activeTabItem: {
   shadowOpacity: 17.30,
   shadowOffset: { width: 0, height: 6 },
   shadowRadius: 8,
-  elevation: 8,
+  // elevation: 8,
+   android: {
+    shadowColor: '#3b82f6',
+    shadowOpacity: 17.30,
+    shadowOffset: { width: 0, height: 6 },
+    elevation: 138,
+    // backgroundColor: '#e4e4e45b',
+  },
 },
 
 tabText: {
