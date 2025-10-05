@@ -11,6 +11,7 @@ export default function ManageClubsTable({
   onView, // NEW
 }) {
   return (
+    //table interface
     <View>
     <View style={styles.wrap}>
       <View style={styles.headerRow}>

@@ -169,7 +169,7 @@ export default function ClubsScreen() {
     q.student?.toLowerCase().includes(searchQuery.toLowerCase()) ||
     q.batch?.toLowerCase().includes(searchQuery.toLowerCase()) ||
     q.request?.toLowerCase().includes(searchQuery.toLowerCase());
-
+//w
   const manageFilter = listFilter;
 
   const renderScene = useMemo(() => SceneMap({

@@ -4,6 +4,7 @@ import { Ionicons } from '@expo/vector-icons';
 
 export default function DeleteConfirmModal({ visible, title, message, confirmText = 'Delete', onCancel, onConfirm }) {
   return (
+    //delete confirmation modal
     <Modal visible={visible} transparent animationType="fade" onRequestClose={onCancel}>
       <View style={styles.overlay}>
         <View style={styles.card}>

@@ -7,6 +7,7 @@ const placeholder =
 
 export default function ClubCard({ club, onView }) {
   return (
+    //all interface
     <View style={styles.card}>
       <Image source={{ uri: club.image || placeholder }} style={styles.cover} />
       <View style={{ padding: 12 }}>
