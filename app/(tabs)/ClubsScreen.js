@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { View, Text, StyleSheet, Dimensions } from 'react-native';
 import { TabView, TabBar, SceneMap } from 'react-native-tab-view';
@@ -279,3 +280,36 @@ const styles = StyleSheet.create({
   tabLabel: { color: '#ffffffff', fontWeight: '600', fontSize: 13, textTransform: 'none', paddingHorizontal: 8 },
   tabLabelActive: { color: '#111827' },
 });
+=======
+import { View, Text, StyleSheet } from 'react-native';
+
+export default function ClubsScreen() {
+  return (
+    <View style={styles.container}>
+      <Text style={styles.title}>Clubs</Text>
+      <Text style={styles.text}>Explore various clubs and activities.</Text>
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#f9fafb',
+    padding: 20,
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    marginBottom: 10,
+    color: '#1f2937',
+  },
+  text: {
+    fontSize: 16,
+    color: '#6b7280',
+    textAlign: 'center',
+  },
+});
+>>>>>>> 7257217c (Added Our sections)

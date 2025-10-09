@@ -1,17 +1,35 @@
 import { Ionicons } from '@expo/vector-icons';
 import React, { useState } from 'react';
 import { StatusBar, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+
 import AnnouncementsScreen from './AnnouncementsScreen';
 import ChannelsScreen from './ChannelsScreen';
+
+import AnnouncementsScreen from '../(tabs)/announcements/AnnouncementsScreen';
+import ChannelsScreen from '../(tabs)/channels/ChannelsScreen';
+
 import ClubsScreen from './ClubsScreen';
 import HomeScreen from './HomeScreen';
 
 // Define the tab structure
+
 /**
+
+
+
+/**
+ * 
+ *
+>>>>>>> 7257217c (Added Our sections)
  * @typedef {Object} Tab
  * @property {string} name
  * @property {string} icon
  * @property {React.ReactNode} component
+<<<<<<< HEAD
+=======
+ * 
+ * 
+>>>>>>> 7257217c (Added Our sections)
  */
 
 export default function TabNavigation() {
